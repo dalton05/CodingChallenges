@@ -10,5 +10,5 @@
 // Pseudo Code:
 
 function filter_list(l) {
-  return l.filter(element => typeof 'number')  
+  return l.filter(element => typeof element === 'number')  
 }
