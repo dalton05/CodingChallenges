@@ -47,6 +47,6 @@ var SequenceSum = (function() {
         }
       }
     };
-  
     return SequenceSum;
+})
   
