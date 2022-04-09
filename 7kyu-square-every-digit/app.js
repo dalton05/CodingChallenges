@@ -3,12 +3,7 @@
 // Note: The function accepts an integer and returns an integer
 
 function squareDigits(num){
-    return Number(num
-                  .toString()
-                  .split('')
-                  .forEach(e => {
-                      e=e*e
-                      console.log(num)
-                    })
-                  .join(''))
-  }
+    let arr = num.toString().split('')
+    arr.forEach((e,i,a) => a[i]*=a[i])
+    return Number(arr.join(''))
+}
