@@ -16,4 +16,4 @@
 function digital_root(n) {
     const result = String(n).split('').reduce((a,b) => Number(a) + Number(b))
     return n>9 ? digital_root(result) : Number(result) 
-  }
+}
