@@ -50,4 +50,4 @@ function topThreeWords(text) {
     if (sortedArr.length == 2) return [sortedArr[0][0], sortedArr[1][0]]
     if (sortedArr.length == 1) return [sortedArr[0][0]]
     if (!sortedArr.length) return []
-  }
+}
