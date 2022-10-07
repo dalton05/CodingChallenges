@@ -1,3 +1,3 @@
-# CodeWars
+# Daily Challenges
 
-These are simply my solutions to CodeWars challenges. 
+These are simply my solutions to CodeWars and Leetcode challenges. 

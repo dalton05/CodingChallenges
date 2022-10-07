@@ -27,5 +27,9 @@
 
 
 var checkIfPangram = function(sentence) {
-    return sentence.split('').every(e=>e.match(/[a-z]/g))
+    let alph = 'abcdefghijklmnopqrstuvwxyz'
+    sentence.split('').forEach(e => {
+        if (alph.includes(e)) alph = alph.replace(e, '')
+    })
+    return alph.length ? false : true 
 };
